@@ -1,0 +1,6 @@
+package:
+  name: xclsv-pkg
+  version: 1
+
+build:
+  string: {{ os.environ.get('LOCK_NAME', 'lock-a') }} 
